@@ -79,6 +79,9 @@ main {
   margin-top: 24px;
   margin-bottom: 16px;
 }
+.my-failure ul {
+  padding: 0;
+}
 
 .my-failure li {
   font-weight: 400;
@@ -86,6 +89,9 @@ main {
   color: #444343;
   list-style: none;
   margin-bottom: 8px;
+}
+.my-failure li i {
+  color: #16d887;
 }
 
 /* my-plan section styles */
