@@ -64,9 +64,10 @@ main {
   margin: 130px 0;
   gap: 90px;
 }
-/* .my-failure img {
-  background-color: #f15b22;
-} */
+.my-failure img {
+  background: rgba(241, 91, 34, 0.2);
+  border-radius: 50%;
+}
 .failure-title {
   font-weight: 700;
   font-size: 40px;
@@ -123,7 +124,6 @@ main {
 /* contact section styles */
 .contact {
   background-image: url("../images/watch.png");
-  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
   border-radius: 8px;
   height: 300px;
   margin: 130px 0;
@@ -133,6 +133,8 @@ main {
 }
 .contact-container {
   padding: 59px 617px 59px 64px;
+  background-repeat: no-repeat;
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
 }
 .contact-title {
   font-weight: 700;
