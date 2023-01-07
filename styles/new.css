@@ -45,3 +45,97 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
+.btn-primary {
+  font-size: 20px;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 21px 36px 20px;
+  height: 64px;
+  border: 0;
+  cursor: pointer;
+  font-weight: 600;
+  text-align: center;
+  color: #f15b22;
+}
+/* my-failure section styles */
+.my-failure {
+  display: flex;
+  align-items: center;
+  margin: 130px 0;
+  gap: 90px;
+}
+/* .my-failure img {
+  background-color: #f15b22;
+} */
+.failure-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+}
+.failure-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.my-failure li {
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+/* my-plan section styles */
+.my-plan {
+  text-align: center;
+}
+.plan-section-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 55px;
+}
+.plans-container {
+  display: flex;
+  justify-content: space-around;
+}
+.plan-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+  margin: 24px 0 16px 0;
+}
+.plan-description {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
+}
+
+/* contact section styles */
+.contact {
+  background-image: url("../images/watch.png");
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+  border-radius: 8px;
+  height: 300px;
+  margin: 130px 0;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.contact-container {
+  padding: 59px 617px 59px 64px;
+}
+.contact-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+/* footer section styles */
+.footer {
+  display: flex;
+}
